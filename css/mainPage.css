@@ -1,0 +1,69 @@
+body{
+    background-color: rgb(103, 110, 103);
+    border: 10px solid white;
+    padding-bottom: 1in;
+    padding-top: 1in;
+    width: 1400px;
+}
+
+img{
+    margin: 0px;
+}
+
+a.contactMethod {
+    font-size: 3rem;
+    padding: 50px;
+    color:aqua;
+    border: black ridge;
+}
+
+a:hover{
+    background-color:aqua;
+    color:black
+}
+
+main#aboutMe{
+    border: 5px solid black;
+    margin: 50px;
+    padding: 30px;
+    width: 800px;
+    background-color: white;
+    border-radius: 25%;
+    font-size: 30px;
+}
+
+h1.title{
+    border: 5px solid black;
+    text-align: center;
+    font-size: 60px;
+    background-color: white;
+    width: 600px;
+    padding: 20px;
+    align-items: center;
+}
+
+.subtitle{
+    border: 5px solid black;
+    text-align: center;
+    font-size: 40px;
+    background-color: white;
+    padding-top: 20px;
+    align-items: center;
+}
+
+.artwork{
+    border: 5px solid black;
+    width: 200px;
+    height: 150px;
+    background-color: white;
+    background-size:cover; 
+    background-blend-mode:hard-light;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.contactTable{
+    padding: 10px;
+    border-right: 5px solid black;
+}
+
