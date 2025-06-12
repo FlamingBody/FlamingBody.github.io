@@ -23,7 +23,24 @@ function imageArray() {
   return images;
 }
 
+
+function imageCycle(){
+  
+}
+
 //Color Animation
+function backgroundColor() {
+  let currentColor = [0, 150, 250];
+  colorChange = 10;
+  red = currentColor[0];
+  green = currentColor[1];
+  blue = currentColor[2];
+  dRed = 1;
+  dGreen = 1;
+  dBlue = 1;
+  colorCycle();
+  return;
+}
 
 function colorCycle() {
   //console.log({currentColor});
@@ -56,15 +73,6 @@ function colorCycle() {
   return;
 }
 
-function backgroundColor() {
-  let currentColor = [0, 150, 250];
-  colorChange = 10;
-  red = currentColor[0];
-  green = currentColor[1];
-  blue = currentColor[2];
-  dRed = 1;
-  dGreen = 1;
-  dBlue = 1;
-  colorCycle();
-  return;
-}
+
+
+

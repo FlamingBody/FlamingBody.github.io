@@ -1,7 +1,7 @@
 addEventListener("DOMContentLoaded", () => {   
 
     const images = imageArray();
-    projection = _.setClass('tbody td > div', 'artwork');
+    projection = _.setClass('.pictureDecor', 'artwork');
     d = document.getElementById('aboutMe')
 
     count = 0;
