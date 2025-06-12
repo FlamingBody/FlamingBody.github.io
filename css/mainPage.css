@@ -1,4 +1,4 @@
-#docBorder {
+.docBorder {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -10,7 +10,7 @@ body {
   padding-right: 0.5in;
   padding-left: 0.5in;
   padding-top: 0.5in;
-  width: 1920px;
+  max-width: 1920px;
   border: 50px solid white;
 }
 
