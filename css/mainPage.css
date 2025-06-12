@@ -10,7 +10,8 @@ body {
   padding-right: 0.5in;
   padding-left: 0.5in;
   padding-top: 0.5in;
-  max-width: 1920px;
+  min-width: 960px;
+  max-width: 1440px;
   border: 50px solid white;
 }
 
@@ -57,6 +58,7 @@ h1.title {
   border: 5px solid black;
   text-align: center;
   font-size: 60px;
+  font-family: cursive;
   background-color: white;
   padding: 20px;
   align-items: center;
